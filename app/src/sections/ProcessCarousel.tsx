@@ -71,7 +71,7 @@ export default function ProcessCarousel() {
       </div>
 
       <div ref={wrapperRef} className="carousel-wrapper">
-        <div className="carousel-row" data-direction="left">
+        <div className="carousel-row" data-direction="right">
           {steps.map((step, i) => (
             <div key={`left-${i}`} className="carousel-card">
               <div
